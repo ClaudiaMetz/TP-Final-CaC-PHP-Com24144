@@ -63,9 +63,16 @@ footer ul li {
   margin: 20px;
   position: relative;
   border-radius: 5%;
-  background: radial-gradient(circle at center, Lavender, Khaki, LightSalmon);
+  background: radial-gradient(
+    circle at center,
+    Lavender,
+    Lavender,
+    Khaki,
+    LightSalmon,
+    rgb(7, 219, 243)
+  );
   padding: 0.8em;
-  box-shadow: 0 5px 8px 0 rgba(14, 6, 241, 0.2);
+  box-shadow: 0 8px 8px 0 rgba(14, 6, 241, 0.2);
   transition: 0.3s;
 }
 
